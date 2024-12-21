@@ -1,0 +1,2 @@
+# Unsafe Raw Pointer Modification of Vector in Rust
+This repository demonstrates a potential bug involving the unsafe use of raw pointers to modify a Rust vector.  Modifying a vector's elements through a raw pointer after the vector's capacity changes (e.g., through reallocation) can cause memory corruption and lead to program crashes or unpredictable behavior.  The provided example illustrates this scenario and the corrected solution using safer methods.
